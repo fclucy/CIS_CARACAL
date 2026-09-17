@@ -4,7 +4,7 @@ CIS_CARACAL is a proof of concept program meant to demonstrate to employers:\
     - My ability to port the CLI program to a GUI.\
     - My ability to turn the CLI/GUI program into an installation package.\
     - My familiarity with the CIS OS hardening guides for cybersecurity audits.\
-    - My competency with Github version control and SSH/GPG key setup.\
+    - My competency with Github version control and SSH/GPG key setup.
 
 This program will focus on supporting the Debian 13 OS.
 By extension this covers most Debian based OS distributions compatible with Debian 13.
