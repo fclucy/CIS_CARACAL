@@ -1,0 +1,17 @@
+gpg --full-generate-key
+gpg --list-secret-keys --keyid-format=long
+gpg --list-secret-keys --keyid-format=long | grep '^sec' | cut -d/ -f2 | awk '{print $1}'
+[secret]
+
+git config --global user.signingkey [secret]
+git config --global commit.gpgsign true
+git config --global --get user.signingkey
+git config --global --get commit.gpgsign
+git config --global gpg.program gpg
+gpg --armor --export [secret]
+
+Settings -> SSH and GPG keys -> New GPG key
+
+git commit --allow-empty -m "test: GPG signed verification"
+git log -1 --show-signature
+git push

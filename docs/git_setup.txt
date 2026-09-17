@@ -1,0 +1,23 @@
+mkdir -p /home/finnian/Documents/CIS_CARACAL
+cd /home/finnian/Documents/CIS_CARACAL
+git init
+git status
+git config --global user.name "Finnian Lucy"
+git config --global user.email "lucyf@wwu.edu"
+git config --global --list
+
+Create a new repository CIS_CARACAL
+Leave README, .gitignore, and license unchecked
+
+touch LICENSE
+git status
+git add LICENSE
+git commit -m "chore: add MIT license"
+git config --global init.defaultBranch main
+git config --global init.defaultBranch
+git branch -M main
+git remote add origin git@github.com:fclucy/CIS_CARACAL.git
+git remote -v
+git push -u origin main
+git config --global init.defaultBranch main
+git config --global init.defaultBranch

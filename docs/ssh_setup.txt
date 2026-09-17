@@ -1,0 +1,8 @@
+ssh-keygen -t ed25519 -C "lucyf@wwu.edu"
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519_wwu
+cat ~/.ssh/id_ed25519_wwu.pub
+
+Settings -> SSH and GPG keys -> New SSH key
+
+ssh -T git@github.com
