@@ -1,0 +1,157 @@
+# Compiled binaries 
+
+*.o
+*.obj
+*.a
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.out
+
+# Common local executable names
+
+CIS_CARACAL
+cis_caracal
+caracal
+
+# Debugging / profiling
+
+*.dSYM/
+*.gcda
+*.gcno
+*.gcov
+*.prof
+*.profraw
+*.profdata
+
+# Build directories
+
+build/
+_build/
+out/
+bin/
+obj/
+
+# CMake
+
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+Makefile
+install_manifest.txt
+compile_commands.json
+
+# CMake generated files
+
+*.cmake
+!CMakeLists.txt
+
+# Autotools
+
+autom4te.cache/
+aclocal.m4
+config.h
+config.log
+config.status
+config.cache
+configure
+Makefile.in
+
+# IDE / Editor files
+
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.cproject
+
+# OS-generated files
+
+.DS_Store
+Thumbs.db
+.directory
+
+# Temporary files
+
+*.tmp
+*.temp
+*.bak
+*.orig
+*.rej
+
+# Logs
+
+*.log
+
+# Coverage / static analysis output
+
+coverage/
+*.gcov
+*.lcov
+
+# Package/build artifacts
+
+*.deb
+*.ddeb
+*.rpm
+*.tar
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+
+# Debian packaging generated files
+
+debian/.debhelper/
+debian/debhelper-build-stamp
+debian/files
+debian/*.substvars
+debian/*.log
+debian/tmp/
+debian/CIS_CARACAL/
+debian/cis-caracal/
+debian/*.debhelper.log
+
+# Local test/output data
+
+test-output/
+results/
+reports/
+*.result
+*.report
+
+# Keep example configuration files in Git.
+
+*.local
+*.local.conf
+.env
+.env.*
+
+# C compiler dependency files
+
+*.d
+
+# Valgrind
+
+valgrind-out.txt
+
+# GDB
+
+.gdb_history
+gdb_history
+
+# clangd
+
+.cache/
+.clangd/
+
+# Miscellaneous generated files
+
+*.generated
+generated/
+tmp/
+temp/
