@@ -31,15 +31,39 @@ void run_audit(const char *script)
         return;
     }
 
-    if (WIFEXITED(status))
-    {
-        printf("\nAudit exited with status: %d\n",
-               WEXITSTATUS(status));
-    }
-    else
+    if (!WIFEXITED(status))
     {
         printf("\nAudit did not exit normally.\n");
+        return;
     }
+
+    int exit_code = WEXITSTATUS(status);
+
+    printf("\n========================================\n");
+    printf(" Audit Result\n");
+    printf("========================================\n");
+
+    switch (exit_code)
+    {
+        case 0:
+            printf("RESULT: PASS\n");
+            break;
+
+        case 2:
+            printf("RESULT: FAIL\n");
+            break;
+
+        case 3:
+            printf("RESULT: WARNING\n");
+            break;
+
+        default:
+            printf("RESULT: ERROR\n");
+            printf("Audit exited with status: %d\n", exit_code);
+            break;
+    }
+
+    printf("========================================\n");
 }
 
 void show_menu(void)
