@@ -1,0 +1,6 @@
+git checkout main
+git pull origin main
+git tag -a v0.1.0 -m "CIS_CARACAL v0.1.0"
+git tag
+git push origin v0.1.0
+Create the release on GitHub and attach the .deb package so it can be downloaded directly from the website through GitHub Releases.
