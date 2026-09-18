@@ -7,8 +7,8 @@ if [ -f "$SCRIPT_DIR/scripts/cis_1_1_1_11.sh" ]; then
     AUDIT_SCRIPT="$SCRIPT_DIR/scripts/cis_1_1_1_11.sh"
 
 # Installed location
-elif [ -f "/usr/lib/cis-caracal/scripts/cis_1_1_1_11.sh" ]; then
-    AUDIT_SCRIPT="/usr/lib/cis-caracal/scripts/cis_1_1_1_11.sh"
+elif [ -f "/usr/lib/cis_caracal/scripts/cis_1_1_1_11.sh" ]; then
+    AUDIT_SCRIPT="/usr/lib/cis_caracal/scripts/cis_1_1_1_11.sh"
 
 else
     zenity \

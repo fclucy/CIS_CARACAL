@@ -1,0 +1,11 @@
+Package: cis-caracal
+Version: 0.1.0
+Section: admin
+Priority: optional
+Architecture: amd64
+Depends: bash, findutils, grep, kmod, util-linux, zenity
+Maintainer: Finnian Lucy <lucyf@wwu.edu>
+Description: Debian CIS security auditing tool
+ CIS_CARACAL is a cybersecurity auditing tool for Debian systems.
+ It provides a command-line interface and graphical interface for
+ performing selected CIS Benchmark security audits.

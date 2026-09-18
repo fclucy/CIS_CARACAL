@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=CIS_CARACAL
+Comment=Debian CIS Security Auditor
+Exec=/usr/bin/cis_caracal_gui
+Icon=cis_caracal
+Terminal=false
+Categories=System;Security;
