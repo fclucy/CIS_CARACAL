@@ -292,13 +292,13 @@ CIS_CARACAL/
 │       │
 │       └── share/
 │           ├── applications/
-│           │   └── cis-caracal.desktop
+│           │   └── cis_caracal.desktop
 │           │
 │           └── icons/
 │               └── hicolor/
 │                   └── 256x256/
 │                       └── apps/
-│                           └── cis-caracal.png
+│                           └── cis_caracal.png
 │
 ├── cis_caracal_gui.sh
 ├── cis_caracal.png
