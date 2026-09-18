@@ -3,7 +3,9 @@
 #include <unistd.h>
 #include <sys/wait.h>
 
+#ifndef AUDIT_SCRIPT
 #define AUDIT_SCRIPT "./scripts/cis_1_1_1_11.sh"
+#endif
 
 void run_audit(const char *script)
 {
