@@ -52,8 +52,6 @@ The audit produces a report describing the current system state.
 
 ---
 
-```
-
 ### CLI
 
 The CLI is written in C and provides the main menu and process management.
