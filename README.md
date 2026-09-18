@@ -83,7 +83,23 @@ The packaged application installs the required runtime dependencies automaticall
 
 # Installation
 
-## Option 1 — Install the Debian Package
+## Option 1 - Install as direct download from GitHub Releases
+
+Download the debian package directly from GitHub Releases if you just want the
+.deb install package without any of the source code.
+On the right side of the repository below the About section are GitHub releases.
+The current release is:
+```text
+CIS_CARACAL v0.1.0
+```
+
+After you have downloaded the package from GitHub Releases, simply run this command:
+
+```bash
+sudo apt install ./cis-caracal_0.1.0_amd64.deb
+```
+
+## Option 2 — Install the Debian Package
 
 Download or clone the project repository, then navigate to the project directory.
 
