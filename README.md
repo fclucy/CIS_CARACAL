@@ -1,4 +1,4 @@
-![CIS_CARACAL icon](icon.jpeg)\
+![CIS_CARACAL icon](readme.jpeg)\
 CIS_CARACAL is a proof of concept program meant to demonstrate to employers:\
     - My ability to write a CLI program.\
     - My ability to port the CLI program to a GUI.\
