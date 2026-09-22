@@ -1,5 +1,5 @@
 ![CIS_CARACAL readme](readme.jpeg)\
-![CIS_CARACAL poc](proof_of_concept.png)\
+![CIS_CARACAL poc](demonstration.png)\
 # CIS_CARACAL
 
 **Debian 13 CIS Security Auditor**
